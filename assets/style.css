@@ -1,8 +1,50 @@
-* {}
-img {
-    display: block;
-    height: 500px;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+* {
+}
+
+.img {
+  display: block;
+  height: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.heading {
+  font-family: "Permanent Marker", cursive;
+  font-size: xx-large;
+  color: aquamarine;
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(23, 13, 32);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(141, 187, 228);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Permanent Marker", cursive;
+}
+
+.topnav a:hover {
+  background-color: rgb(141, 187, 228);
+  color: rgb(23, 13, 32);
+}
+.hero {
+  height: 500px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url(file:///Users/mitchellmorgan/Desktop/class-dev-projects/Maya-TheDog/Maya-TheDog/assets/MayaPhoto1.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
